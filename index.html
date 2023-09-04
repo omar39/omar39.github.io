@@ -1,16 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Omar Khaled</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Omar's Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <script type="application/json" id="my-template-data">
-{"name":"Omar Khaled","about":"Graduated from faculty Computer Science. Certified by American Embassy as VR and AR developer. Certified by Michigan University as Data Analyst. Certified by Michigan State University as Game Designer.  3+ years of game development using Unity game engine  Worked at GamUp as a game developer freelancer.","socialLinks":["https://www.linkedin.com/in/omar-khaled-373ab1172/","https://github.com/omar39"],"devToUserId":null,"primaryColor":"gray","products":[{"title":"Custom Fortune Wheel","description":"A Unity Engine tool to customize your own Fortune Wheel in your game.","image":"https://i.postimg.cc/Tw1PBHyS/g96501.png","tags":["devtool","Unity","C#"],"links":["https://omar-khaled.itch.io/custom-fortune-wheel"]},{"title":"Interview Game","description":"A top-down maze game. Questions are viewed in front of the player to answer. For each right answer, the player can take a further step until he finishes the maze.\n","image":"https://i.postimg.cc/nhHkV3rf/interview-game-proto-2.png","tags":["Unity","C#","Game"],"links":["https://play.unity.com/mg/other/interview-game"]},{"title":"Market Simulator","description":"A Puzzle Game for simulating the shopping process.","image":"https://i.postimg.cc/7P91sgXB/Screen-Shot-2021-09-04-at-6-58-52-PM.png","tags":["Unity","C#","Game"],"links":["https://drive.google.com/file/d/1MkmglNW8FyBEHefuZdYPpFT5hxu32SFY/view"]},{"title":"AR Fighting Multiplayer game","description":"A multiplayer fighting game with augmented reality environment.\nIt was made for a crash course.","image":"https://i.postimg.cc/brfz1DSk/vecteezy-hand-holding-horizontal-phone-mock-up-2078358.png","tags":["Game","Unity","C#","AR","Vuforia"],"links":["https://drive.google.com/file/d/1MDw8plmSJA76KiDxOaCgjqzabUzDuJQy/view"]},{"title":"Room Builder","description":"A VR application that helps in simulating a room and trying out furniture in real time right in front of you.","image":null,"tags":["VR","SteamVR","Unity","C#"],"links":["https://drive.google.com/drive/folders/1SdJeR8SY-al4S-5QmYwo18EzU85sJ-ht"]},{"title":"Scratch-like Game","description":"A game that helps children to learn logical thinking by solving simple puzzles with code blocks.","image":"https://i.postimg.cc/Y9xhL52F/photo-2022-04-15-15-03-45.jpg","tags":["Unity","3D"],"links":["https://drive.google.com/file/d/1Q1cS_sinOWkXRgyxOgkzSeDAzeN7KmQB/view?usp=sharing"]}],"repositories":["omar39/yugioh-dataanalysis","omar39/NVC-game","omar39/heart-failure-prediction-R","omar39/game-design-pattern"]}
-    </script>
-    <div id="root"></div>
-    <script src="https://cdn.jsdelivr.net/npm/mytemplate.xyz@0.5.1/build/Index.js"></script>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpeg/omar-khaled.jpg"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Omar Khaled</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <!-- <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li> -->
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <!-- <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is <br> Omar Khaled</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I am a Professional Game Developer and programming instructor. <br> Also I love Data Analysis and Visualization.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/omar-khaled-373ab1172/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/omar39" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://omar-khaled.itch.io/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/itchio.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            I'm a Software Engineer. Passionate for Developing Games, <br> instructing and making some Data Analysis
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Omar Khaled</strong>
+                and I'm a <strong> Game Developer </strong> located in
+                Cairo,Egypt. I've done
+                <strong> remote </strong>
+                projects for startups to create <strong>2D and 3D Games </strong>
+                for both business and consumer use.
+                Also I've been preparing <strong>Programming Courses</strong> for children ages between
+                <strong>9-16 years old</strong> in diffrenet computer science aspects as 
+                <strong>Game Developemt, Python and Robotics.</strong>
+              </p>
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">C#</div>
+              <div class="skills__skill">Unity</div>
+              <div class="skills__skill">2D</div>
+              <div class="skills__skill">3D</div>
+              <div class="skills__skill">SteamVR</div>
+              <div class="skills__skill">VuforiaAR</div>
+              <div class="skills__skill">ARCore</div>
+              <div class="skills__skill">Construct 3</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">Pandas</div>
+              <div class="skills__skill">Matplotlib</div>
+              <div class="skills__skill">Tableau</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            These are my lastest Games and Data Analysis insights.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/fortune-wheel.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Custom Fortune Wheel</h3>
+              <p class="projects__row-content-desc">
+                A Unity devtool for creating and customizing a Fortune Wheel in any game.
+              </p>
+              <a
+                href="https://assetstore.unity.com/publishers/56725"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Assets Store</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/scratch-like.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Scratch-like Game</h3>
+              <p class="projects__row-content-desc">
+                A game, similar to Scrach (coding website) for children to learn logical thinking
+                by solving simple puzzles with code blocks.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1Q1cS_sinOWkXRgyxOgkzSeDAzeN7KmQB/view?usp=drive_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Watch</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/interview-game.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Interview Game</h3>
+              <p class="projects__row-content-desc">
+                A 2D game made to gamify the interview process by pop-up questions in gameplay.
+              </p>
+              <a
+                href="https://play.unity.com/mg/other/interview-game"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Play Now</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/road-cross-vr.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Road Cross VR</h3>
+              <p class="projects__row-content-desc">
+                A road cross game but with <strong>VR Experience</strong>.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/14ZX1kUnX1xWHtSNkWmVTS2giIvMfNPUM/view?usp=drive_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Watch</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/market-sim.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Market Simulator</h3>
+              <p class="projects__row-content-desc">
+                A market game that simulates the buying process.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1MkmglNW8FyBEHefuZdYPpFT5hxu32SFY/view?usp=drive_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Watch</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/ar-fight.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">AR Fighting Game</h3>
+              <p class="projects__row-content-desc">
+                A 1V1 Fighting Game but with <strong>AR Experience</strong>. 
+                The game is Multiplayer using <strong>Photon API</strong>.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1MDw8plmSJA76KiDxOaCgjqzabUzDuJQy/view?usp=drive_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Watch</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/pseudo-nidhogg.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Pseudo Nidhogg</h3>
+              <p class="projects__row-content-desc">
+                A replica game for the original Nidhogg game. 
+                All art are made by me.
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1jzuKt_Hyg-DOHGLaJiJmsEBohUVMUa47/view?usp=drive_link"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Watch</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/omar-khaled-373ab1172/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/omar39">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://omar-khaled.itch.io/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/itchio.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Omar Khaled</h4>
+            <p class="main-footer__short-desc">
+              Email:
+                <a rel="noreferrer" target="_blank" href="mailto:omar4550@live.com">
+                  omar4550@live.com 
+                </a>
+              <br>
+              Phone: +20 114 124 7813
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>

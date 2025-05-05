@@ -1,0 +1,93 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Wood and Nut",
+      "description": "The famous wood and nut game retrained in Unity Engine to be more felxible offering the developer to make custom levels.",
+      "images": [
+        "./assets/jpeg/projects/wood-and-nut (1).jpeg",
+        "./assets/jpeg/projects/wood-and-nut (2).jpeg",
+        "./assets/jpeg/projects/wood-and-nut (3).jpeg"
+      ],
+      "videoUrl": "https://drive.google.com/file/d/1gtQsBad2Y8oPEAD2jGYvlBTfBJWF-1xd/view?usp=drive_link"
+    },
+    {
+      "id": 2,
+      "title": "Mutiplayer Racing Game",
+      "description": "A local multiplayer racing game designed for Egy Assurance in their event. The game has two contestants (and maybe more) to race against each other.",
+      "images": [
+        "./assets/jpeg/projects/racing-game-mp (1).jpeg",
+        "./assets/jpeg/projects/racing-game-mp (2).jpeg",
+        "./assets/jpeg/projects/racing-game-mp (3).jpeg",
+        "./assets/jpeg/projects/racing-game-mp (4).jpeg"
+      ],
+      "videoUrl": ""
+    },
+    {
+      "id": 3,
+      "title": "Archery VR game",
+      "description": "A VR experience made for Oculus VR to aim and shoot over targets. You can add branding, time constraint and score for each target.",
+      "images": [
+        "./assets/jpeg/projects/archery-vr (1).jpeg",
+        "./assets/jpeg/projects/archery-vr (2).jpeg"
+      ],
+      "videoUrl": "https://drive.google.com/file/d/1AoEW70ru7vNoNv11weR1LeWfIJJl4bhn/view?usp=drive_link"
+    },
+    {
+      "id": 11,
+      "title": "Branded Stack Game",
+      "description": "The casual stack game but branded with a stacking building theme. The game works on the web with stunning graphics. This game was made for a client in Egypt.",
+      "images": ["./assets/jpeg/projects/stack-game (1).jpeg", "./assets/jpeg/projects/stack-game (2).jpeg", "./assets/jpeg/projects/stack-game (3).jpeg"],
+      "videoUrl": "https://drive.google.com/file/d/1RHpeOnyXKQH0KzQci54ozZl62MC7SIAZ/view?usp=drive_link"
+    },
+    {
+      "id": 4,
+      "title": "Custom Fortune Wheel",
+      "description": "A Unity devtool for creating and customizing a Fortune Wheel in any game. I worked solo in this project.",
+      "images": ["./assets/jpeg/projects/fortune-wheel.jpeg"],
+      "videoUrl": "https://assetstore.unity.com/packages/tools/gui/custom-fortune-wheel-editor-205459#description"
+    },
+    {
+      "id": 5,
+      "title": "Scratch-like game",
+      "description": "A game similar to Scrach (coding website) for children to learn logical thinking by solving simple puzzles with code blocks. This projects features a level editor application to create multiple levels and diffrenet maps to experience",
+      "images": ["./assets/jpeg/projects/scratch-like.jpeg"],
+      "videoUrl": "https://drive.google.com/file/d/1Q1cS_sinOWkXRgyxOgkzSeDAzeN7KmQB/view?usp=drive_link"
+    },
+    {
+      "id": 6,
+      "title": "Data Algo",
+      "description": "A program that visualizes core programming topics like data structures and algorithms and code editor inside.",
+      "images": ["./assets/jpeg/projects/data-algo (1).jpeg", "./assets/jpeg/projects/data-algo (2).jpeg", "./assets/jpeg/projects/data-algo (3).jpeg", "./assets/jpeg/projects/data-algo (4).jpeg"],
+      "videoUrl": "https://drive.google.com/file/d/1FViOIdkQuYSCuajXEFCF_0y4feIa8HjP/view?usp=drive_link"
+    },
+    {
+      "id": 7,
+      "title": "Room Builder VR",
+      "description": "A VR application that simulates an empty room in which a set of 20+ furnitures can be added and modified in place and rotation.This project was made for my VR Diploma associated with 412 Labs for equipment.",
+      "images": ["./assets/jpeg/projects/room-builder-vr.jpeg"],
+      "videoUrl": "https://drive.google.com/file/d/1FViOIdkQuYSCuajXEFCF_0y4feIa8HjP/view?usp=drive_link"
+    },
+    {
+      "id": 8,
+      "title": "AR Fighting Game",
+      "description": "A 1V1 Fighting Game but with AR Experience. The game is Multiplayer using Photon API. The game was made for a crash course in which I participated in its preparation. I worked in a team where I was responsible for the fighting mechanics.",
+      "images": ["./assets/jpeg/projects/ar-fight.jpeg"],
+      "videoUrl": "https://drive.google.com/file/d/1DHgLXVUxD0KrP5bru1pYzR837wZbDTCk/view?usp=sharing"
+    },
+    {
+      "id": 9,
+      "title": "Giza System Interview Game",
+      "description": "A game made to gamify the interview process for Giza Systems. I worked as a solo developer in this game. In this game I used",
+      "images": ["./assets/jpeg/projects/giza-interview-game.jpeg"],
+      "videoUrl": "https://drive.google.com/file/d/1LIFF6mJGKdqYV8d7DCUK_yM2GXKuJ7fw/view?usp=drive_link"
+    },
+    {
+      "id": 10,
+      "title": "Market Simulator",
+      "description": "A market game that simulates the buying process. This simulator was requested by one of my clients. The simulator features 50+ shopping items and worked on WebGL flawlessly.",
+      "images": ["./assets/jpeg/projects/market-sim.jpeg"],
+      "videoUrl": "https://drive.google.com/file/d/1MkmglNW8FyBEHefuZdYPpFT5hxu32SFY/view?usp=drive_link"
+    }
+  ]
+}
